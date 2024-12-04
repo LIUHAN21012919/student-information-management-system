@@ -13,7 +13,7 @@ public class scoreDAO {
 	Connection conn = null;
 	db DataBase = new db();
 	
-	//成绩信息
+	//score信息
 	public List<score> scoreRes() throws Exception {
 		List<score> scores = new ArrayList<>();
 		score score;
@@ -40,7 +40,7 @@ public class scoreDAO {
 		return scores;
 	}
 	
-	//某个学生的所有成绩
+	//某个学生的所有score
 	public List<score> scoreOwnRes(String id) throws Exception {
 		List<score> scores = new ArrayList<>();
 		score score;
@@ -67,7 +67,7 @@ public class scoreDAO {
 		return scores;
 	}
 	
-	//录入成绩
+	//录入score
 	public boolean insert(String sno, String cno, String sscore) throws SQLException {
 		try {
 			conn = DataBase.getCon();
@@ -99,7 +99,7 @@ public class scoreDAO {
 		return false;
 	}
 	
-	//删除成绩
+	//deletescore
 	public boolean delete(String sno, String cno) throws SQLException  {
 		try {
 			conn = DataBase.getCon();
@@ -116,7 +116,7 @@ public class scoreDAO {
 		return false;
 	}
 	
-	//查询成绩
+	//searchscore
 	public score select(String sno, String cno) throws SQLException  {
 		try {
 			conn = DataBase.getCon();
@@ -143,7 +143,7 @@ public class scoreDAO {
 		return null;
 	}
 	
-	//删除某门课程的成绩
+	//delete某门课程的score
 	public boolean update(String sno, String cno, String sscore, String rescore) throws SQLException  {
 		try {
 			conn = DataBase.getCon();

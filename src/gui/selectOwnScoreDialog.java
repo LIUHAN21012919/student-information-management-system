@@ -20,7 +20,7 @@ public class selectOwnScoreDialog extends JFrame {
 	TableModel tm_score;
 	JTable tableCourse; 
 	JScrollPane scoreMessage; 
-	String[] strScore = {"学号", "姓名","课程号", "课程名", "成绩", "补考成绩"};  
+	String[] strScore = {"Student ID", "full name","Course No", "Course name", "score", "Makeup exam results"};  
 	String[][] scoreList;
 	
 	public void gengxin(String[][] scoreList) throws Exception {
@@ -39,7 +39,7 @@ public class selectOwnScoreDialog extends JFrame {
 		}
 	}
 	
-	public static String[][] getscoreList(String id) throws Exception {  //������ѧ����Ϣ���ַ�������ķ�ʽ����
+	public static String[][] getscoreList(String id) throws Exception {
 		scoreDAO score = new scoreDAO();
         List<score> list = score.scoreOwnRes(id);
         String[][] scores = new String[list.size()][6];
@@ -55,15 +55,14 @@ public class selectOwnScoreDialog extends JFrame {
     }
 
 	public selectOwnScoreDialog(String id) throws Exception {
-		setTitle("\u5B66\u751F\u6210\u7EE9");
+		setTitle("student score");
 		setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 		setBounds(800, 350, 480, 320);
 		
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
-		
-		//��½ʱ��ʼ����ʾ���
+
 		scoreList = getscoreList(id);
 		gengxin(scoreList);	
 			

@@ -12,14 +12,14 @@ import bean.student;
 public class userDAO {
 	Connection conn = null;
 	db DataBase = new db();
-	//管理员登录
+	//administrator登录
 	public boolean LoginCheck(String id, String pwd) throws SQLException {
 		try {
 			conn = DataBase.getCon();
 			Statement stat = null;
 			ResultSet rs = null;
 			stat = conn.createStatement();
-			String sql = "SELECT * FROM adminDAO WHERE Aid ='"+id+"' and Apwd = '"+pwd+"'";
+			String sql = "SELECT * FROM admindao WHERE Aname ='"+id+"' and Apwd = '"+pwd+"'";
 			rs = stat.executeQuery(sql);
 			if (rs.next()){
 				return true;
@@ -33,7 +33,7 @@ public class userDAO {
 		return false;
 	}
 	
-	//管理员注册
+	//administrator注册
 	public boolean Register(String id, String name ,String pwd) throws SQLException {
 		try {
 			conn = DataBase.getCon();
@@ -55,7 +55,7 @@ public class userDAO {
 		return true;
 	}
 	
-	//返回学生信息对象列表
+	//return学生信息对象列表
 	public List<student> res() throws Exception {
 		List<student> students = new ArrayList<>();
 		student student;
@@ -83,7 +83,7 @@ public class userDAO {
 		return students;
 	}
 	
-	//返回指定学生的信息
+	//return指定学生的信息
 	public List<student> Select(String sno, String name) throws Exception {
 		List<student> students = new ArrayList<>();
 		student student;
@@ -129,7 +129,7 @@ public class userDAO {
 		return false;
 	}
 	
-	//删除学生信息
+	//Delete student信息
 	public boolean delete(String sno) throws SQLException  {
 		try {
 			conn = DataBase.getCon();
@@ -146,7 +146,7 @@ public class userDAO {
 		return false;
 	}
 	
-	//根据学号查询单个学生
+	//根据Student IDsearch单个学生
 	public student select(String sno) throws SQLException  {
 		try {
 			conn = DataBase.getCon();

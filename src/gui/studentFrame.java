@@ -24,7 +24,7 @@ public class studentFrame extends JFrame {
 	TableModel tm_student;
 	JTable tablestudent; 
 	JScrollPane stuentmessage; 
-	String[] strstudent = {"学号", "姓名", "性别", "年龄", "班级", "专业", "系别"};  
+	String[] strstudent = {"Student ID", "full name", "sex", "age", "class", "major", "department"};  
 	String[][] studentList;
 	String id = null;
 	
@@ -38,13 +38,13 @@ public class studentFrame extends JFrame {
         stuentmessage = new JScrollPane(tablestudent);  
         contentPane.add(stuentmessage);
 		try {
-			tm_student.setMessages(studentList); //初始化表格内容
+			tm_student.setMessages(studentList);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
 	}
 	
-	public static String[][] getStudentList() throws Exception {  //������ѧ����Ϣ���ַ�������ķ�ʽ����
+	public static String[][] getStudentList() throws Exception {
 		userDAO user = new userDAO();
         List<student> list = user.res();
         String[][] strings = new String[list.size()][7];
@@ -65,18 +65,18 @@ public class studentFrame extends JFrame {
 	 * @throws Exception 
 	 */
 	public studentFrame(String id) throws Exception {
-		setTitle("\u5B66\u751F\u4FE1\u606F\u7BA1\u7406\u7CFB\u7EDF");
+		setTitle("student information management system");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(700, 250, 659, 513);
 		
 		JMenuBar menuBar = new JMenuBar();
 		setJMenuBar(menuBar);
 		
-		JMenu mnNewMenu = new JMenu("\u67E5\u8BE2");
+		JMenu mnNewMenu = new JMenu("search");
 		menuBar.add(mnNewMenu);
 		
-		//查询成绩
-		JButton btnNewButton_2 = new JButton("\u67E5\u8BE2\u6210\u7EE9");
+		//searchscore
+		JButton btnNewButton_2 = new JButton("search score");
 		mnNewMenu.add(btnNewButton_2);
 		btnNewButton_2.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
@@ -90,8 +90,8 @@ public class studentFrame extends JFrame {
 			}
 		});
 			
-		//查询课程
-		JButton button_2 = new JButton("\u67E5\u8BE2\u8BFE\u7A0B");
+		//search课程
+		JButton button_2 = new JButton("search courses");
 		mnNewMenu.add(button_2);
 		button_2.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {

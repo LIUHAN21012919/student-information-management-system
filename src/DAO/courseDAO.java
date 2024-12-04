@@ -14,7 +14,7 @@ public class courseDAO {
 	
 	//课程信息
 	public List<course> courseRes() throws Exception {
-		List<course> courses = new ArrayList<>();
+		List<course> courses = new ArrayList<course>();
 		course course;
 		conn = DataBase.getCon();
 		Statement stat = null;
@@ -60,7 +60,7 @@ public class courseDAO {
 		return false;
 	}
 	
-	//ɾ删除课程
+	//ɾdelete course
 	public boolean delete(String cno) throws SQLException  {
 		try {
 			conn = DataBase.getCon();
@@ -77,7 +77,7 @@ public class courseDAO {
 		return false;
 	}
 	
-	//查询课程
+	//search课程
 	public course select(String cno) throws SQLException  {
 		try {
 			conn = DataBase.getCon();

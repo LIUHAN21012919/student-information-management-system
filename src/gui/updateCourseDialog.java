@@ -29,28 +29,28 @@ public class updateCourseDialog extends JFrame {
 	String cname = null;
 	String ccredit = null;
 	String ctime = null;
-	
-	//更新课程
+
+
 	public boolean updateCourse(String cno, String cname, String ccredit, String ctime) throws SQLException {
 		if(cno.length()<1 || cname.length()<1 || ccredit.length()<1 || ctime.length()<1 ) {
-			JOptionPane.showMessageDialog(this,"信息不能为空！");
+			JOptionPane.showMessageDialog(this,"error！");
 			return false;
 		}
 		courseDAO courseDAO = new courseDAO();
 		boolean istrue = courseDAO.update(cno, cname, ccredit, ctime);
 		if(istrue) {
-			JOptionPane.showMessageDialog(this,"修改成功！");
+			JOptionPane.showMessageDialog(this,"success！");
 			return true;
-		}else 
-			JOptionPane.showMessageDialog(this,"修改失败，请检查输入信息是否正确！");
+		}else
+			JOptionPane.showMessageDialog(this,"fail！");
 		return false;
 	}
-	
-	
-	//查询课程
+
+
+
 		public boolean selectCourse(String cno) throws Exception {
-			if(cno.length()<1 ) {	
-				JOptionPane.showMessageDialog(this,"课程号不能为空！");
+			if(cno.length()<1 ) {
+				JOptionPane.showMessageDialog(this,"Course number cannot be empty！");
 				return false;
 			}
 			courseDAO Course = new courseDAO();
@@ -62,15 +62,15 @@ public class updateCourseDialog extends JFrame {
 				this.ccredit = course.getCcredit();
 				this.ctime = course.getCtime();
 				return true;
-			}			
+			}
 			else
-				JOptionPane.showMessageDialog(this,"课程表里没有此课程的信息，无法修改！");
+				JOptionPane.showMessageDialog(this,"There is no information about this course in the schedule, so it cannot be modified！");
 			return false;
 		}
-	
-	
+
+
 	public updateCourseDialog() {
-		setTitle("\u8981\u4FEE\u6539\u7684\u8BFE\u7A0B");
+		setTitle("update course");
 		setAlwaysOnTop(true);
 		setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 		setBounds(850, 400, 327, 194);
@@ -78,16 +78,16 @@ public class updateCourseDialog extends JFrame {
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
-		
+
 		textField = new JTextField();
 		textField.setBounds(89, 48, 173, 30);
 		textField.setColumns(10);
-		
-		JLabel lblNewLabel = new JLabel("\u8BFE\u7A0B\u53F7\uFF1A");
-		lblNewLabel.setBounds(29, 55, 59, 15);
-		
-		//��ѯ
-		JButton btnNewButton = new JButton("\u67E5\u8BE2");
+
+		JLabel lblNewLabel = new JLabel("Course No：");
+		lblNewLabel.setBounds(15, 55, 75, 15);
+
+
+		JButton btnNewButton = new JButton("query");
 		btnNewButton.setBounds(89, 114, 69, 23);
 		btnNewButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
@@ -96,16 +96,16 @@ public class updateCourseDialog extends JFrame {
 				try {
 					if( selectCourse(cno) ) {
 						updateDialog();
-					}		
+					}
 				} catch (Exception e1) {
 					e1.printStackTrace();
 				}
-				
+
 			}
 		});
-		
-		//返回按钮
-		JButton btnNewButton_1 = new JButton("\u8FD4\u56DE");
+
+
+		JButton btnNewButton_1 = new JButton("return");
 		btnNewButton_1.setBounds(193, 114, 69, 23);
 		btnNewButton_1.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
@@ -117,13 +117,13 @@ public class updateCourseDialog extends JFrame {
 		contentPane.add(btnNewButton);
 		contentPane.add(btnNewButton_1);
 		contentPane.add(textField);
-		
+
 	}
-	
-	
+
+
 
 	public void updateDialog() {
-		setTitle("\u4FEE\u6539\u5B66\u751F");
+		setTitle("update student");
 		setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 		setVisible(true);
 		setResizable(false);
@@ -131,41 +131,41 @@ public class updateCourseDialog extends JFrame {
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
-		
+
 		textField = new JTextField();
 		textField.setBounds(115, 38, 206, 30);
 		textField.setColumns(10);
 		textField.setText(cno);
-		
+
 		textField_1 = new JTextField();
 		textField_1.setBounds(115, 86, 206, 32);
 		textField_1.setColumns(10);
 		textField_1.setText(cname);
-		
+
 		textField_5 = new JTextField();
 		textField_5.setBounds(115, 137, 206, 32);
 		textField_5.setColumns(10);
 		textField_5.setText(ccredit);
-		
+
 		textField_2 = new JTextField();
 		textField_2.setBounds(115, 186, 206, 34);
 		textField_2.setColumns(10);
 		textField_2.setText(ctime);
-		
-		
-		JLabel label = new JLabel("\u8BFE\u7A0B\u53F7\uFF1A");
-		label.setBounds(55, 45, 53, 15);
-		
-		JLabel label_1 = new JLabel("\u8BFE\u7A0B\u540D\uFF1A");
-		label_1.setBounds(55, 94, 53, 15);
-		
-		JLabel label_2 = new JLabel("\u5B66\u5206\uFF1A");
-		label_2.setBounds(67, 145, 47, 15);
-		
-		JLabel label_3 = new JLabel("\u5B66\u65F6\uFF1A");
-		label_3.setBounds(67, 195, 47, 15);
-		
-		button = new JButton("\u4FEE\u6539");
+
+
+		JLabel label = new JLabel("Course No：");
+		label.setBounds(15, 45, 90, 15);
+
+		JLabel label_1 = new JLabel("course name");
+		label_1.setBounds(15, 94, 100, 15);
+
+		JLabel label_2 = new JLabel("credit：");
+		label_2.setBounds(15, 145, 50, 15);
+
+		JLabel label_3 = new JLabel("class hour:");
+		label_3.setBounds(15, 195, 80, 15);
+
+		button = new JButton("update");
 		button.setBounds(127, 249, 73, 23);
 		button.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
@@ -176,21 +176,21 @@ public class updateCourseDialog extends JFrame {
 				try {
 					if( updateCourse(cno, cname, ccredit, ctime) ) {
 						dispose();
-					}		
+					}
 				} catch (Exception e1) {
 					e1.printStackTrace();
 				}
 			}
 		});
-		
-		button_1 = new JButton("\u8FD4\u56DE");
+
+		button_1 = new JButton("return");
 		button_1.setBounds(236, 249, 73, 23);
 		button_1.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				dispose();
 			}
 		});
-	
+
 		contentPane.setLayout(null);
 		contentPane.add(label);
 		contentPane.add(label_1);

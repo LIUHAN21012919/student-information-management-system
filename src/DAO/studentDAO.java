@@ -11,18 +11,19 @@ import bean.student;
 public class studentDAO {
 	Connection conn = null;
 	db DataBase = new db();
-	//学生登录
-	public boolean LoginCheck(String Sno, String Spwd) throws SQLException {
+
+	public boolean LoginCheck(String username, String Spwd) throws SQLException {
 		try {
 			conn = DataBase.getCon();
 			Statement stat = null;
 			ResultSet rs = null;
 			stat = conn.createStatement();
-			String sql = "SELECT * FROM student WHERE Sno ='"+Sno+"' and Spwd = '"+Spwd+"'";
+
+			String sql = "SELECT * FROM student WHERE Sname ='" + username + "' and Spwd = '" + Spwd + "'";
 			rs = stat.executeQuery(sql);
-			if (rs.next()){
+			if (rs.next()) {
 				return true;
-			}else{
+			} else {
 				return false;
 			}
 		} catch (Exception e) {
@@ -31,8 +32,8 @@ public class studentDAO {
 		conn.close();
 		return false;
 	}
-	
-	//注册
+
+
 	public boolean Register(String Sno ,String Spwd) throws SQLException {
 		try {
 			conn = DataBase.getCon();
@@ -54,7 +55,7 @@ public class studentDAO {
 		return true;
 	}
 	
-	//返回学生信息对象
+
 	public List<student> res() throws Exception {
 		List<student> students = new ArrayList<>();
 		student student;

@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="49cbc45f-f7ca-408f-bda9-afd738caa6d1" name="Changes" comment="Changes">
+      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/DAO/courseDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/DAO/courseDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/DAO/db.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/DAO/db.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/DAO/scoreDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/DAO/scoreDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/DAO/studentDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/DAO/studentDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/DAO/userDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/DAO/userDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/bean/course.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/bean/course.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/bean/score.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/bean/score.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/bean/student.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/bean/student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gui/TableModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/gui/TableModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gui/deleteCourseDialog$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/gui/deleteCourseDialog$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gui/deleteCourseDialog$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/gui/deleteCourseDialog$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gui/deleteCourseDialog.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/gui/deleteCourseDialog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gui/deleteScoreDialog$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/gui/deleteScoreDialog$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gui/deleteScoreDialog$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/gui/deleteScoreDialog$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gui/deleteScoreDialog.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/gui/deleteScoreDialog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gui/deleteStudentDialog$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/gui/deleteStudentDialog$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gui/deleteStudentDialog$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/gui/deleteStudentDialog$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gui/deleteStudentDialog.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/gui/deleteStudentDialog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gui/insertCourseDialog$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/gui/insertCourseDialog$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gui/insertCourseDialog$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/gui/insertCourseDialog$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gui/insertCourseDialog.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/gui/insertCourseDialog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gui/insertScoreDialog$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/gui/insertScoreDialog$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gui/insertScoreDialog$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/gui/insertScoreDialog$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gui/insertScoreDialog.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/gui/insertScoreDialog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gui/insertStudentDialog$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/gui/insertStudentDialog$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gui/insertStudentDialog$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/gui/insertStudentDialog$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gui/insertStudentDialog.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/gui/insertStudentDialog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gui/loginGUI$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/gui/loginGUI$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gui/loginGUI$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/gui/loginGUI$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gui/loginGUI$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/gui/loginGUI$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gui/loginGUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/gui/loginGUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gui/mainFrame$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/gui/mainFrame$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gui/mainFrame$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/gui/mainFrame$10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gui/mainFrame$11.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/gui/mainFrame$11.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gui/mainFrame$12.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/gui/mainFrame$12.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gui/mainFrame$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/gui/mainFrame$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gui/mainFrame$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/gui/mainFrame$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gui/mainFrame$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/gui/mainFrame$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gui/mainFrame$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/gui/mainFrame$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gui/mainFrame$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/gui/mainFrame$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gui/mainFrame$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/gui/mainFrame$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gui/mainFrame$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/gui/mainFrame$8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gui/mainFrame$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/gui/mainFrame$9.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gui/mainFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/gui/mainFrame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gui/registerGUI$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/gui/registerGUI$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gui/registerGUI$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/gui/registerGUI$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gui/registerGUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/gui/registerGUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gui/selectCourseDialog.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/gui/selectCourseDialog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gui/selectFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/gui/selectFrame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gui/selectOwnScoreDialog.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/gui/selectOwnScoreDialog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gui/selectScoreDialog.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/gui/selectScoreDialog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gui/selectStudentDialog$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/gui/selectStudentDialog$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gui/selectStudentDialog$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/gui/selectStudentDialog$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gui/selectStudentDialog.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/gui/selectStudentDialog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gui/studentFrame$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/gui/studentFrame$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gui/studentFrame$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/gui/studentFrame$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gui/studentFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/gui/studentFrame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gui/updateCourseDialog$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/gui/updateCourseDialog$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gui/updateCourseDialog$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/gui/updateCourseDialog$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gui/updateCourseDialog$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/gui/updateCourseDialog$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gui/updateCourseDialog$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/gui/updateCourseDialog$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gui/updateCourseDialog.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/gui/updateCourseDialog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gui/updateScoreDialog$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/gui/updateScoreDialog$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gui/updateScoreDialog$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/gui/updateScoreDialog$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gui/updateScoreDialog$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/gui/updateScoreDialog$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gui/updateScoreDialog$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/gui/updateScoreDialog$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gui/updateScoreDialog.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/gui/updateScoreDialog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gui/updateStudentDialog$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/gui/updateStudentDialog$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gui/updateStudentDialog$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/gui/updateStudentDialog$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gui/updateStudentDialog$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/gui/updateStudentDialog$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gui/updateStudentDialog$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/gui/updateStudentDialog$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/gui/updateStudentDialog.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/gui/updateStudentDialog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DAO/courseDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DAO/courseDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DAO/db.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DAO/db.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DAO/scoreDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DAO/scoreDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DAO/studentDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DAO/studentDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DAO/userDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DAO/userDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui/TableModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/TableModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui/deleteCourseDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/deleteCourseDialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui/deleteScoreDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/deleteScoreDialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui/deleteStudentDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/deleteStudentDialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui/insertCourseDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/insertCourseDialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui/insertScoreDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/insertScoreDialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui/insertStudentDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/insertStudentDialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui/loginGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/loginGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui/mainFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/mainFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui/registerGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/registerGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui/selectCourseDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/selectCourseDialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui/selectFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/selectFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui/selectOwnScoreDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/selectOwnScoreDialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui/selectScoreDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/selectScoreDialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui/selectStudentDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/selectStudentDialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui/studentFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/studentFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui/updateCourseDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/updateCourseDialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui/updateScoreDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/updateScoreDialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui/updateStudentDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/updateStudentDialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tssystem.sql" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: -1
+}</component>
+  <component name="ProjectId" id="2AszcQmnx2BZWBMyE3ynBJpXcy2" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/Desktop/studentManage&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="loginGUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gui.loginGUI" />
+      <module name="TestWindowBuider" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.loginGUI" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="49cbc45f-f7ca-408f-bda9-afd738caa6d1" name="Changes" comment="" />
+      <created>1655813164393</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1655813164393</updated>
+      <workItem from="1655813165885" duration="1644000" />
+      <workItem from="1655814840220" duration="1922000" />
+      <workItem from="1668787001196" duration="114000" />
+      <workItem from="1668787362392" duration="16000" />
+      <workItem from="1668787386308" duration="23000" />
+      <workItem from="1668787418467" duration="1020000" />
+      <workItem from="1668788753353" duration="402000" />
+      <workItem from="1668789222578" duration="1879000" />
+      <workItem from="1668831369474" duration="137000" />
+      <workItem from="1668831520693" duration="1514000" />
+      <workItem from="1668833640302" duration="2369000" />
+      <workItem from="1668836092579" duration="3511000" />
+      <workItem from="1668855374489" duration="174000" />
+      <workItem from="1668993842798" duration="864000" />
+      <workItem from="1669010158154" duration="682000" />
+      <workItem from="1669012542435" duration="345000" />
+      <workItem from="1669021017615" duration="1996000" />
+      <workItem from="1702997336887" duration="472000" />
+      <workItem from="1732881803573" duration="472000" />
+      <workItem from="1732944440617" duration="5281000" />
+      <workItem from="1732969062479" duration="1389000" />
+      <workItem from="1733040270219" duration="3976000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException" package="com.mysql.jdbc.exceptions.jdbc4" />
+          <option name="timeStamp" value="6" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

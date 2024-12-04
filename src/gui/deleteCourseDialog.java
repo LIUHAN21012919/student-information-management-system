@@ -17,24 +17,24 @@ public class deleteCourseDialog extends JFrame {
 	private JTextField textField;
 	String cno = null;
 
-	//删除课程
+	//delete course
 	public boolean deleteCourse(String cno) throws Exception {
 		if(cno.length()<1 ) {
-			JOptionPane.showMessageDialog(this,"课程号不能为空！");
+			JOptionPane.showMessageDialog(this,"Course number cannot be empty！");
 			return false;
 		}
 		courseDAO course = new courseDAO();
 		if(course.delete(cno)) {
-			JOptionPane.showMessageDialog(this,"课程删除成功！");
+			JOptionPane.showMessageDialog(this,"Course deleted successfully！");
 			return true;
-		}			
+		}
 		else
-			JOptionPane.showMessageDialog(this,"课程删除失败，请检查课程号是否正确！");
+			JOptionPane.showMessageDialog(this,"Course deletion failed, please check if the course number is correct!");
 		return false;
 	}
-	
+
 	public deleteCourseDialog() {
-		setTitle("\u5220\u9664\u8BFE\u7A0B");
+		setTitle("delete course");
 		setAlwaysOnTop(true);
 		setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 		setBounds(850, 400, 327, 194);
@@ -42,32 +42,32 @@ public class deleteCourseDialog extends JFrame {
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
-		
+
 		textField = new JTextField();
 		textField.setBounds(89, 48, 173, 30);
 		textField.setColumns(10);
-		
-		JLabel lblNewLabel = new JLabel("\u8BFE\u7A0B\u53F7\uFF1A");
-		lblNewLabel.setBounds(29, 55, 60, 15);
-		
-		//删除按钮
-		JButton btnNewButton = new JButton("\u5220\u9664");
-		btnNewButton.setBounds(89, 114, 69, 23);
+
+		JLabel lblNewLabel = new JLabel("Course No：");
+		lblNewLabel.setBounds(9, 55, 90, 15);
+
+		//delete按钮
+		JButton btnNewButton = new JButton("delete");
+		btnNewButton.setBounds(75, 114, 85, 23);
 		btnNewButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				cno = textField.getText();
 				try {
 					if( deleteCourse(cno) ) {
 						dispose();
-					}		
+					}
 				} catch (Exception e1) {
 					e1.printStackTrace();
-				}	
+				}
 			}
 		});
-		
-		//返回按钮
-		JButton btnNewButton_1 = new JButton("\u8FD4\u56DE");
+
+		//return按钮
+		JButton btnNewButton_1 = new JButton("return");
 		btnNewButton_1.setBounds(193, 114, 69, 23);
 		btnNewButton_1.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {

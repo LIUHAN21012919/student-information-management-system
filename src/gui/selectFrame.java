@@ -13,10 +13,11 @@ public class selectFrame extends JFrame {
 	TableModel tm_student;
 	JTable tablestudent; 
 	JScrollPane stuentmessage; 
-	String[] strstudent = {"学号", "姓名", "性别", "年龄", "班级","专业", "系别"};  //表格标题
+	String[] strstudent = {"Student ID", "full name", "sex", "age", "class","major", "department"};  //表格标题
 
 	public selectFrame(String[][] studentList) throws Exception {
-		setTitle("\u5B66\u751F\u4FE1\u606F\u7BA1\u7406\u7CFB\u7EDF");
+		setTitle("student information management system");
+
 		setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 		setBounds(730, 310, 600, 400);
 		contentPane = new JPanel();
@@ -29,7 +30,7 @@ public class selectFrame extends JFrame {
         stuentmessage = new JScrollPane(tablestudent);  
         contentPane.add(stuentmessage);
 		try {
-			tm_student.setMessages(studentList); //初始化表格内的数据
+			tm_student.setMessages(studentList);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}

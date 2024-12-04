@@ -25,13 +25,13 @@ public class TableModel extends AbstractTableModel {
         return messages;
     }
 
-    // 返回表格共有多少行
+    // return表格共有多少行
     public int getRowCount() {
         // TODO Auto-generated method stub
         return messages.length;
     }
 
-    // 返回表格共有多少列
+    // return表格共有多少列
     public int getColumnCount() {
         // TODO Auto-generated method stub
         return columnNames.length;

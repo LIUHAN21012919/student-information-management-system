@@ -24,7 +24,6 @@ public class selectStudentDialog extends JFrame {
 	String name = null;
 	String[][] studentList;
 
-	//获取指定学生信息
 	public String[][] selectStudent(String sno, String Sname) throws Exception {
 		userDAO user = new userDAO();
 		List<student> list = user.Select(sno, Sname);
@@ -40,32 +39,33 @@ public class selectStudentDialog extends JFrame {
         }
         return strings;
 	}
-	
-	//查询学生信息
+
+
 	public void selectstu(String sno, String name) {
 		try {
 			if( sno.length()<1 )
-				JOptionPane.showMessageDialog(this,"信息不能为空！");
+				JOptionPane.showMessageDialog(this,"error！");
 			else {
 				studentList = selectStudent(sno, name);
 				if (studentList.length < 1) {
-					JOptionPane.showMessageDialog(this,"查无此生！");
+					JOptionPane.showMessageDialog(this,"no！");
 				}else {
 					selectFrame selectFrame = new selectFrame(studentList);
 					selectFrame.setVisible(true);
 					dispose();
 				}
-			}	
+			}
 		} catch (Exception e1) {
 			e1.printStackTrace();
 		}
 	}
-	
+
 	/**
 	 * Create the frame.
 	 */
 	public selectStudentDialog() {
-		setTitle("\u67E5\u8BE2\u5B66\u751F\uFF08\u5B66\u53F7\u5FC5\u586B\uFF0C\u59D3\u540D\u53EF\u4E0D\u586B\uFF09");
+
+		setTitle("search student");
 		setAlwaysOnTop(true);
 		setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 		setBounds(850, 400, 369, 237);
@@ -73,23 +73,23 @@ public class selectStudentDialog extends JFrame {
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
-		
+
 		textField = new JTextField();
 		textField.setBounds(90, 40, 196, 30);
 		textField.setColumns(10);
-		
-		JLabel lblNewLabel = new JLabel("\u5B66\u53F7\uFF1A");
-		lblNewLabel.setBounds(41, 47, 39, 15);
-		
+
+		JLabel lblNewLabel = new JLabel("Student ID");
+		lblNewLabel.setBounds(10, 47, 80, 15);
+
 		textField_1 = new JTextField();
 		textField_1.setBounds(90, 98, 196, 30);
 		textField_1.setColumns(10);
-		
-		JLabel lblNewLabel_1 = new JLabel("\u59D3\u540D\uFF1A");
-		lblNewLabel_1.setBounds(41, 105, 44, 15);
-		
-		//查询
-		JButton btnNewButton = new JButton("\u67E5\u8BE2");
+
+		JLabel lblNewLabel_1 = new JLabel("name:");
+		lblNewLabel_1.setBounds(10, 105, 80, 15);
+
+		//search
+		JButton btnNewButton = new JButton("search");
 		btnNewButton.setBounds(90, 159, 70, 23);
 		btnNewButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
@@ -100,12 +100,12 @@ public class selectStudentDialog extends JFrame {
 				} catch (Exception e1) {
 					e1.printStackTrace();
 				}
-				
+
 			}
 		});
-		
-		//返回按钮
-		JButton btnNewButton_1 = new JButton("\u8FD4\u56DE");
+
+		//return按钮
+		JButton btnNewButton_1 = new JButton("return");
 		btnNewButton_1.setBounds(213, 159, 73, 23);
 		btnNewButton_1.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
